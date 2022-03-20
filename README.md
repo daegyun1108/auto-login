@@ -1,6 +1,2 @@
 # login
-자동화
-
-main Naver
-main2 github
-main3 classroom.google
+자동화 \n main Naver \n main2 githubmain3 \n classroom.google
