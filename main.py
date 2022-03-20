@@ -1,3 +1,8 @@
+'''
+pip install selenium
+pip install webdriver_manager.chrome
+pip install pyperclip
+'''
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,10 +17,6 @@ from selenium.webdriver.common.by import By
 driver.find_element(By.CLASS_NAME,'link_login').click()
 
 user = {'id':'id','pw':'id'} #id pw 입력
-
-#driver.find_element(By.ID,'id').send_keys(user['id'])
-#driver.find_element(By.ID,'pw').send_keys(user['pw'])
-#driver.find_element(By.CLASS_NAME, 'btn_global').click()
 
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
