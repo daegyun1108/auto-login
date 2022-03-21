@@ -1,3 +1,8 @@
+'''
+pip install selenium
+pip install webdriver_manager.chrome
+pip install pyperclip
+'''
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -6,11 +11,11 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.implicitly_wait(10) 
 
-driver.get("https://classroom.google.com/?emr=0")
+driver.get("https://classroom.google.com/?emr=0") # 구글 클래스룸 
 
 from selenium.webdriver.common.by import By
 
-user = {'id':'id','pw':'pw'}
+user = {'id':'id','pw':'pw'} # id, password 입력
 
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
