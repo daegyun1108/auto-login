@@ -1,3 +1,8 @@
+'''
+pip install selenium
+pip install webdriver_manager.chrome
+pip install pyperclip
+'''
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
